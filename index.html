@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AAFIYA MEDIRETREATS || Healing Globally</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -292,16 +297,17 @@
                     <h2 class="section-heading">
                         Patient Stories & Videos <span class="dot">.</span>
                     </h2>
-                    <div class="owl-carousel card-wrapper">
+                    <div class="owl-carousel owl-theme card-wrapper" id="carousel1">
                         <div class="card">
                             <div class="storiesCard_heading">
                                 <h2>Underwent Procedure for retinal detachment</h2>
-                                <img src="images/double-quote.png" alt="">
+                                <img src="images/double-quote.png" alt="" style="width: auto;">
                             </div>
                             <div class="stories-content">
-                                <iframe width="280" height="157" src="video/patient-doctor-sucess.mp4" frameborder="0" allowfullscreen></iframe>
+                                <iframe width="250" height="141" src="video/video.mp4" frameborder="0"
+                                    allowfullscreen></iframe>
                                 <div class="info-wrapper">
-                                    <img src="images/people-1.jpg" loading="lazy" alt="peoples info" class="peoplesImg">
+                                    <img src="images/people-1.jpg" style="width: 44px;" loading="lazy" alt="peoples info" class="peoplesImg">
                                     <div class="peoples_info">
                                         <p class="people-name">Luke Offert</p>
                                         <p class="people-city">New York, USA</p>
@@ -309,12 +315,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card card2">
                             <div class="storiesCard_heading">
-                                <h2>Underwent Colonoscopy and Medical Management</h2><img src="images/double-quote.png"
-                                    alt="">
+                                <h2 class="card-heading">Underwent Colonoscopy and Medical Management</h2><img
+                                    src="images/double-quote.png" alt=""  style="width: auto;">
                             </div>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, a sunt dicta
+                            <p class="card-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, a
+                                sunt dicta
                                 repellat
                                 dolorum nam voluptatem quaerat itaque eum facere laboriosam reiciendis corporis
                                 accusantium
@@ -346,23 +353,23 @@
             </div>
         </div>
         <section class="top-doctors-list">
-            <h3 class="top-doctors-headinh1">Doctors</h3>
-            <h2 class="top-doctors-headinh2">Top Orthopaedic <span>Doctors</span></h2>
-            <div class="owl-carousel owl-theme">
+            <h3 class="top-doctors-heading1">Doctors</h3>
+            <h2 class="top-doctors-heading2">Top Orthopaedic <span style="color:#01a3e4f7;">Doctors</span></h2>
+            <div class="owl-carousel owl-theme" id="carousel2">
                 <div class="card">
-                    <img src="images/people-3.jpg" loading="lazy" alt="doctor">
+                    <img src="images/people-3.jpg" loading="lazy" alt="doctor" class="card-img">
                     <h3 class="doctor-name">Dr. Faique Falke</h3>
                     <p class="doctor-industry">Musaffah Industrial- Abu Dhabi</p>
                     <p class="doctor-info">Doctor Degree & Specialist</p>
                 </div>
                 <div class="card">
-                    <img src="images/people-3.jpg" loading="lazy" alt="doctor">
+                    <img src="images/people-3.jpg" loading="lazy" alt="doctor" class="card-img">
                     <h3 class="doctor-name">Dr. Faique Falke</h3>
                     <p class="doctor-industry">Musaffah Industrial- Abu Dhabi</p>
                     <p class="doctor-info">Doctor Degree & Specialist</p>
                 </div>
                 <div class="card">
-                    <img src="images/people-3.jpg" loading="lazy" alt="doctor">
+                    <img src="images/people-3.jpg" loading="lazy" alt="doctor" class="card-img">
                     <h3 class="doctor-name">Dr. Faique Falke</h3>
                     <p class="doctor-industry">Musaffah Industrial- Abu Dhabi</p>
                     <p class="doctor-info">Doctor Degree & Specialist</p>
@@ -373,7 +380,7 @@
         <section class="hospitals-list">
             <h3 class="hospitalList-heading1">Hospitals</h3>
             <h2 class="hospitalList-heading2">Recommended Hospitals<span>Doctors</span></h2>
-            <div class="owl-carousel owl-theme">
+            <div class="owl-carousel owl-theme" id="carousel3">
                 <div class="card">
                     <img src="images/Apollo-Hospital.jpg" loading="lazy" alt="apollo hospital">
                     <h3 class="hospital-name">Apollo Hospital</h3>
@@ -475,8 +482,13 @@
         </footer>
     </div>
 
-    <script src="jquery.min.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>

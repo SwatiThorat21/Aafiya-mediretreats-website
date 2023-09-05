@@ -324,38 +324,89 @@ textarea::placeholder {
 .card-wrapper {
   display: flex;
   justify-content: space-around;
+  /* padding: 2rem; */
 }
 .card {
-  width: 300px;
+  width: 280px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
+  padding: 0.7rem;
+  margin: 1rem;
 }
 .storiesCard_heading {
   display: flex;
   font-size: 9px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
 }
 .storiesCard_heading h2 {
-  width: 156px;
+  width: 164px;
 }
 .storiesCard_heading img {
   height: 45px;
 }
 .peoplesImg {
-  width: 50px;
-  height: 50px;
+  width: 44px !important;
+  height: 44px;
   border-radius: 50%;
 }
 .info-wrapper {
   display: flex;
   align-items: center;
   gap: 0.7rem;
+  margin-top: 0.8rem;
 }
-.people-city{
-    font-size: 10px;
-    color:  rgb(148, 146, 146);
-    
+.people-city {
+  font-size: 10px;
+  color: rgb(148, 146, 146);
+}
+.card-heading {
+  width: 204px !important;
+}
+.card-para {
+  font-size: 12px;
+  margin-top: 1rem;
+}
+.card2 {
+  width: 260px;
+  padding: 1.7rem 1.2rem;
+}
+owl-dots {
+  display: block;
+}
+#carousel2 .owl-item {
+  width: 480px !important;
+}
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+  display: flex !important;
+  justify-content: center;
+  /* font-size: 40px; */
+  gap: 1rem;
+}
+.top-doctors-list {
+  background-color: rgb(229, 244, 249);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-doctors-heading1 {
+  margin: 0;
+  color: rgb(224, 19, 19);
+  font-family: "Playfair Display", serif;
+}
+.top-doctors-heading2 {
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 0.7px;
+}
+#carousel2 .owl-item {
+  width: 440px !important;
 }
