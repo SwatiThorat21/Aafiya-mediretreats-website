@@ -336,6 +336,7 @@ textarea::placeholder {
   flex-wrap: wrap;
   padding: 0.7rem;
   margin: 1rem;
+  background-color: white;
 }
 .storiesCard_heading {
   display: flex;
@@ -397,16 +398,208 @@ owl-dots {
   justify-content: center;
   align-items: center;
 }
-.top-doctors-heading1 {
+.carousel-heading1 {
   margin: 0;
   color: rgb(224, 19, 19);
   font-family: "Playfair Display", serif;
 }
-.top-doctors-heading2 {
+.carousel-heading2 {
   margin: 0;
   font-size: 20px;
   letter-spacing: 0.7px;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
 }
 #carousel2 .owl-item {
   width: 440px !important;
+}
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.doctor-name {
+  color: rgb(224, 19, 19);
+  font-family: "Playfair Display", serif;
+  font-size: 17px;
+  margin: 0;
+}
+.doctor-industry {
+  font-size: 14px;
+  font-weight: 600;
+}
+.doctor-info {
+  font-size: 14px;
+  color: #908e8e;
+  font-weight: 600;
+}
+.hospital-list {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-dotted {
+  padding: 0.7rem 0;
+  border: 1px dashed rgb(224, 19, 19);
+  border-radius: 5px;
+  width: 320px !important;
+}
+.hospital-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.city {
+  color: rgb(224, 19, 19);
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.explorePara {
+  margin: 2rem 0;
+  font-weight: 600;
+  font-size: 16px;
+}
+.exploreHos {
+  color: rgb(224, 19, 19);
+  border-bottom: 1px solid rgb(224, 19, 19);
+}
+.contactUs {
+  background-color: #14a4e6f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  padding: 2rem;
+}
+.contactUs p {
+  font-size: 14px;
+}
+.contactUs h3 {
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+.contact-wrapper {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.contactBtn {
+  padding: 0.4rem 1.5rem;
+  border: none;
+  color: #ffffff;
+  background-color: #267cdff7;
+}
+.contactNum {
+  border-left: 1px solid #ffffff;
+  padding: 0.5rem;
+  font-size: 18px !important;
+}
+footer {
+  background-color: #042432;
+  color: #ffffff;
+  list-style: none;
+  font-size: 10px;
+  font-weight: 400;
+  padding: 2rem;
+  padding-bottom: 0;
+  position: relative;
+}
+.joining-card {
+  width: 272px;
+  padding: 0.5rem;
+  border-radius: 3px;
+  position: absolute;
+  top: -20px;
+  right: 20px;
+  color: black;
+  background-color: #ffffff;
+}
+.top-wrapper {
+  display: flex;
+  gap: 0.7rem;
+}
+.top-wrapper img {
+  width: 40px;
+}
+.para_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.p1 {
+  font-size: 12px;
+}
+.p2 {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.p3 {
+  font-size: 12px;
+  margin-top: 0.7rem;
+}
+.footer-top-list {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgb(143, 142, 154);
+}
+.list-heading {
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+.dash {
+  color: #017ee4f7;
+  margin-right: 0.5rem;
+}
+.list-wrapper li {
+  line-height: 20px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 1rem;
+  gap: 4rem;
+}
+.social-icons-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+.social-contact h3 {
+  font-size: 16px;
+}
+.footer-p1 {
+  font-size: 12px;
+}
+.footer-p2 {
+  color: #01a3e4f7;
+  font-size: 16px;
+  font-weight: 600;
+}
+.about h3 {
+  font-size: 16px;
+  font-weight: 300;
+}
+.about p {
+  line-height: 1.3rem;
+  font-size: 12px;
+}
+.footerCopyRight {
+  display: flex;
+  justify-content: space-around;
+  background-color: #01a3e4f7;
+  padding: 1.3rem;
+}
+.last-list{
+  margin-top: 4.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  
 }
